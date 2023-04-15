@@ -5,196 +5,185 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+        crossorigin="anonymous"
+    >
     <link rel="stylesheet" href="/assets/css/index.css">
 
-    <title>El mundo de la logística</title>
+    <title>Página inicio</title>
 </head>
 <body>
-    <article>
-        <header>
-            <div id="carouselAutoplaying" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
-                    <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
+    <!-- Loader -->
+    <div class="container-loader">
+        <div class="chaotic-orbit"></div>
+    </div>
+
+    <header>
+        <a href="#" class="logo" >
+            <img src="./assets/images/logo/logo.jpg" alt="Nombre y logo de la compañía">
+            <h2 class="nombre-empresa">Empresa</h2>
+        </a>
+
+        <nav>
+            <ol>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="/galeria.html">Imágenes</a>
+                </li>
+                <li>
+                    <a href="/form.html">Contáctenos</a>
+                </li>
+            </ol>
+        </nav>
+    </header>
+    
+    <section>
+        <div id="carouselAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-size active">
                         <div class="carousel-caption d-none d-md-block"></div>
-                        <img src="./assets/images/tipos_logistica.jpg" id="img-size" class="d-block" alt="Tipos de Logística">
-                    </div>
+                        <img src="./assets/images/carousel/tipos_logistica.jpg" class="d-block img-size" alt="Tipos de Logística">
+                </div>
                     
-                    <div class="carousel-item">
-                        <img src="./assets/images/log_aprovisionamiento.jpg" id="img-size" class="d-block" alt="Logística de aprovisionamiento">
-                        <div id="carousel-caption" class="carousel-caption d-none d-md-block">
-                            <h5>Logística de aprovisionamiento</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem cursus... <a href="#log-aprovisionamiento">Read more</a></p>
-                        </div>
-                    </div>
-                    
-                    <div class="carousel-item">
-                        <img src="./assets/images/log_transporte.jpg" id="img-size" class="d-block" alt="Logística de Transporte">
-                        <div id="carousel-caption" class="carousel-caption d-none d-md-block">
-                            <h5>Logística de Transporte</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem cursus... <a href="#log-transporte">Read more</a></p>
-                        </div>
-                    </div>
-                    
-                    <div class="carousel-item">
-                        <img src="./assets/images/log_aduana.jpg" id="img-size" class="d-block" alt="Logística Aduanera">
-                        <div id="carousel-caption" class="carousel-caption d-none d-md-block">
-                            <h5>Logística Aduanera</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem cursus... <a href="#log-aduana">Read more</a></p>
-                        </div>
+                <div class="carousel-item carousel-size">
+                    <img src="./assets/images/carousel/log_aprovisionamiento.jpg" class="d-block img-size" alt="Logística de aprovisionamiento">
+                    <div class="carousel-caption d-none d-md-block caption-style">
+                        <h5>Logística de aprovisionamiento</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem cursus... <a href="#log-aprovisionamiento">Read more</a></p>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+                    
+                <div class="carousel-item carousel-size">
+                    <img src="./assets/images/carousel/log_transporte.jpg" class="d-block img-size" alt="Logística de Transporte">
+                    <div class="carousel-caption d-none d-md-block caption-style">
+                        <h5>Logística de Transporte</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem cursus... <a href="#log-transporte">Read more</a></p>
+                    </div>
+                </div>
+                    
+                <div class="carousel-item carousel-size">
+                    <img src="./assets/images/carousel/log_aduana.jpg" class="d-block img-size" alt="Logística Aduanera">
+                    <div class="carousel-caption d-none d-md-block caption-style">
+                        <h5>Logística Aduanera</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem cursus... <a href="#log-aduana">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+        
+    <main>
+        <div class="container">
+            <div>
+                <h1>La Logística y sus tipos</h1>
             </div>
 
-            <h1>La Logística y sus tipos</h1>
+            <section id="section-text">
+                <article id="log-aprovisionamiento">
+                    <h2 title="logística aprovisionamiento" id="space-cap">Logística de aprovisionamiento</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem cursus, efficitur odio vel, 
+                            cursus urna. Cras elementum est est, placerat dignissim sapien hendrerit at. Donec aliquam <strong>laoreet</strong> 
+                            rhoncus. Etiam tristique turpis non rhoncus auctor. Curabitur posuere vehicula tempor. Vestibulum 
+                            semper nibh vitae enim mattis rhoncus. Aliquam id augue elit. Aliquam sagittis, nunc nec eleifend 
+                            interdum, tortor nunc tincidunt augue, sit amet ultricies metus ante at erat. Nam blandit commodo ex. 
+                            Praesent cursus ut nunc ornare suscipit. Nam euismod ac justo a semper. Integer et augue suscipit erat 
+                            interdum <strong>laoreet</strong>.
+                        </p>
 
-            <nav id="nav-a">
-                <ol>
-                    <li><a href="/">Inicio</a></li>
-                    <li><a href="#log-aprovisionamiento">Logística de aprovisionamiento</a></li>
-                    <li><a href="#log-transporte">Logística de Transporte</a></li>
-                    <li><a href="#log-aduana">Logística Aduanera</a></li>
-                    <li><a href="#form-contacto">Contacto</a></li>
-                </ol>
-            </nav>
-        </header>
-    </article>
+                        <p>
+                            Vivamus ultricies mauris nec orci <strong>laoreet</strong>, iaculis rhoncus felis interdum. Mauris tincidunt et augue id 
+                            mattis. Cras <strong>laoreet</strong>, lectus eu sagittis auctor, mi odio viverra tortor, lacinia mollis nunc eros ac 
+                            nisl. Sed non nibh in eros convallis scelerisque. Nulla viverra est turpis. Ut malesuada orci id sodales mattis. 
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse at 
+                            ante id risus interdum vulputate at nec augue. Maecenas vitae finibus lectus. Fusce pellentesque consectetur dictum.
+                        </p>
 
-    <main>
-        <section id="section-text">
-            <article id="log-aprovisionamiento" title="logística aprovisionamiento">
-                <h2 id="space-cap">Logística de aprovisionamiento</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem cursus, efficitur odio vel, 
-                    cursus urna. Cras elementum est est, placerat dignissim sapien hendrerit at. Donec aliquam <strong>laoreet</strong> 
-                    rhoncus. Etiam tristique turpis non rhoncus auctor. Curabitur posuere vehicula tempor. Vestibulum 
-                    semper nibh vitae enim mattis rhoncus. Aliquam id augue elit. Aliquam sagittis, nunc nec eleifend 
-                    interdum, tortor nunc tincidunt augue, sit amet ultricies metus ante at erat. Nam blandit commodo ex. 
-                    Praesent cursus ut nunc ornare suscipit. Nam euismod ac justo a semper. Integer et augue suscipit erat 
-                    interdum <strong>laoreet</strong>.
-                </p>
-        
-                <p>
-                    Vivamus ultricies mauris nec orci <strong>laoreet</strong>, iaculis rhoncus felis interdum. Mauris tincidunt et augue id 
-                    mattis. Cras <strong>laoreet</strong>, lectus eu sagittis auctor, mi odio viverra tortor, lacinia mollis nunc eros ac 
-                    nisl. Sed non nibh in eros convallis scelerisque. Nulla viverra est turpis. Ut malesuada orci id sodales mattis. 
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse at 
-                    ante id risus interdum vulputate at nec augue. Maecenas vitae finibus lectus. Fusce pellentesque consectetur dictum.
-                </p>
-        
-                <p>
-                    Donec in velit pretium, facilisis eros at, dictum nisi. Pellentesque porttitor <strong>laoreet</strong> posuere. 
-                    Integer in est et augue pharetra vestibulum. Aenean maximus in felis at facilisis. Etiam sodales urna tellus, ac facilisis 
-                    lorem feugiat at. Morbi dictum, nulla vel rhoncus fermentum, ante orci consequat ante, ac vestibulum nisi felis ac eros. 
-                    Etiam ac nulla a justo euismod pretium sed non dolor. Vivamus auctor viverra purus, sed lacinia lorem vulputate et. 
-                    Aliquam sagittis pulvinar urna id imperdiet.
-                </p>
-            </article>
-        
-            <article id="log-transporte" title="logística transporte">
-                <h2 id="space-cap">Logística de Transporte</h2>
-                <p>
-                    Sed pulvinar ultrices pellentesque. Sed viverra cursus sem, vel commodo mi. Nam eu tortor id elit malesuada tempor. 
-                    Morbi maximus bibendum turpis. Sed vitae libero tortor. In pulvinar purus sit amet enim sagittis feugiat. Suspendisse 
-                    in felis ornare, euismod risus malesuada, viverra justo.
-                </p>
-        
-                <p>
-                    Vestibulum at tellus odio. Vivamus nibh eros, interdum vitae turpis at, commodo maximus nibh. Curabitur blandit 
-                    libero purus. Phasellus velit metus, sagittis et sagittis sit amet, viverra id justo. Praesent accumsan molestie 
-                    tempus. Curabitur nec justo libero. Aenean eu enim <strong>laoreet</strong>, ultricies nisi eget, eleifend neque. 
-                    Duis consectetur eleifend tempor. Donec quis neque iaculis, mattis est et, vulputate velit.
-                </p>
-    
-                <p>
-                    Proin at lacinia libero, nec dignissim nisi. Vestibulum aliquam sed metus ultricies sollicitudin. Ut mattis diam et 
-                    sollicitudin congue. Phasellus dui nisl, hendrerit vitae ultrices eu, ultricies eget magna. Praesent vitae iaculis orci. 
-                    Maecenas consectetur tellus diam, a ultrices tortor ultricies ac. Nullam dictum mattis enim. Lorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit. Aenean dictum a massa ac mattis. Praesent fermentum massa porttitor augue mollis, vel cursus 
-                    erat posuere. In et luctus nunc.
-                </p>
-            </article>
-    
-            <article title="logística aduanas" id="log-aduana">
-                <h2 id="space-cap">Logística Aduanera</h2>
-                <p>
-                    Donec tincidunt consequat elit nec semper. Integer tempus diam in vehicula finibus. Aenean porttitor risus neque, ac 
-                    condimentum massa aliquam vel. Maecenas blandit posuere velit bibendum eleifend. Praesent luctus, lorem in commodo imperdiet, 
-                    neque leo aliquet lorem, et feugiat diam ligula eu mi. Phasellus aliquam, nunc non accumsan porttitor, est enim laoreet neque, 
-                    non ultricies metus massa nec urna. Vivamus lectus ligula, tincidunt quis imperdiet non, consequat non diam. Suspendisse vestibulum 
-                    auctor augue, eu mollis nisl scelerisque a. Mauris id tincidunt purus
-                </p>
+                        <p>
+                            Donec in velit pretium, facilisis eros at, dictum nisi. Pellentesque porttitor <strong>laoreet</strong> posuere. 
+                            Integer in est et augue pharetra vestibulum. Aenean maximus in felis at facilisis. Etiam sodales urna tellus, ac facilisis 
+                            lorem feugiat at. Morbi dictum, nulla vel rhoncus fermentum, ante orci consequat ante, ac vestibulum nisi felis ac eros. 
+                            Etiam ac nulla a justo euismod pretium sed non dolor. Vivamus auctor viverra purus, sed lacinia lorem vulputate et. 
+                            Aliquam sagittis pulvinar urna id imperdiet.
+                        </p>
 
-                <ul>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                </ul>
-            </article>
-        </section>
+                        <p>
+                            Donec in velit pretium, facilisis eros at, dictum nisi. Pellentesque porttitor <strong>laoreet</strong> posuere. 
+                            Integer in est et augue pharetra vestibulum. Aenean maximus in felis at facilisis. Etiam sodales urna tellus, ac facilisis 
+                            lorem feugiat at. Morbi dictum, nulla vel rhoncus fermentum, ante orci consequat ante, ac vestibulum nisi felis ac eros. 
+                            Etiam ac nulla a justo euismod pretium sed non dolor. Vivamus auctor viverra purus, sed lacinia lorem vulputate et. 
+                            Aliquam sagittis pulvinar urna id imperdiet.
+                        </p>
+                </article>
+            
+                <article id="log-transporte">
+                    <h2 title="logística transporte" id="space-cap" class="mt-4">Logística de Transporte</h2>
+                        <p>
+                            Sed pulvinar ultrices pellentesque. Sed viverra cursus sem, vel commodo mi. Nam eu tortor id elit malesuada tempor. 
+                            Morbi maximus bibendum turpis. Sed vitae libero tortor. In pulvinar purus sit amet enim sagittis feugiat. Suspendisse 
+                            in felis ornare, euismod risus malesuada, viverra justo.
+                        </p>
+                        
+                        <p>
+                            Vestibulum at tellus odio. Vivamus nibh eros, interdum vitae turpis at, commodo maximus nibh. Curabitur blandit 
+                            libero purus. Phasellus velit metus, sagittis et sagittis sit amet, viverra id justo. Praesent accumsan molestie 
+                            tempus. Curabitur nec justo libero. Aenean eu enim <strong>laoreet</strong>, ultricies nisi eget, eleifend neque. 
+                            Duis consectetur eleifend tempor. Donec quis neque iaculis, mattis est et, vulputate velit.
+                        </p>
+                        
+                        <p>
+                            Proin at lacinia libero, nec dignissim nisi. Vestibulum aliquam sed metus ultricies sollicitudin. Ut mattis diam et 
+                            sollicitudin congue. Phasellus dui nisl, hendrerit vitae ultrices eu, ultricies eget magna. Praesent vitae iaculis orci. 
+                            Maecenas consectetur tellus diam, a ultrices tortor ultricies ac. Nullam dictum mattis enim. Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit. Aenean dictum a massa ac mattis. Praesent fermentum massa porttitor augue mollis, vel cursus 
+                            erat posuere. In et luctus nunc.
+                        </p>
+                </article>
+        
+                <article id="log-aduana">
+                    <h2 title="logística aduanas" id="space-cap" class="mt-4">Logística Aduanera</h2>
+                        <p>
+                            Donec tincidunt consequat elit nec semper. Integer tempus diam in vehicula finibus. Aenean porttitor risus neque, ac 
+                            condimentum massa aliquam vel. Maecenas blandit posuere velit bibendum eleifend. Praesent luctus, lorem in commodo imperdiet, 
+                            neque leo aliquet lorem, et feugiat diam ligula eu mi. Phasellus aliquam, nunc non accumsan porttitor, est enim laoreet neque, 
+                            non ultricies metus massa nec urna. Vivamus lectus ligula, tincidunt quis imperdiet non, consequat non diam. Suspendisse vestibulum 
+                            auctor augue, eu mollis nisl scelerisque a. Mauris id tincidunt purus
+                        </p>
+
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        </ul>
+                </article>
+            </section>
+        </div>
     </main>
 
-    <aside title="contacto" id="form-background">
-        <form title="contacto" id="form-contacto">
-            <fieldset>
-                    <legend>Contacto</legend>
-                    <br>
-                <div class="mb-3">
-                    <label for="exampleInputName1" class="form-label" title="Nombre">Nombre</label>
-                    <input type="text" class="form-control" id="exampleInputName1" title="Insertar nombre" required placeholder="inserta tu nombre...">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label" title="Email">Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" title="Inserta tu email" required placeholder="inserta tu email...">
-                    <div id="emailHelp" class="form-text" title="Mensaje importante">Nunca compartiremos tu correo electrónico con nadie más.</div>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label" title="Comentario">Escríbenos tus comentarios</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" title="Escribe tus comentarios"></textarea>
-                </div>
-                <br>
-                <button type="submit" class="btn btn-primary" title="Oprime para enviar datos">Enviar datos</button>
-            </fieldset>
-        </form>
-    </aside>
-
-    <!-- <aside id="contacto" title="contacto"></aside>
-        <h2>Contacto</h2>
-        <form action="#" method="post" id="form">
-            <div>
-                <label for="name"><strong>Name</strong></label>
-                <input type="text" name="name" id="name" required placeholder="insert name...">
-            </div>
-            
-            <div>
-                <label for="email"><strong>Email</strong></label>
-                <input type="text" name="email" id="email" required placeholder="insert email...">
-            </div>
-
-            <div>
-                <input type="submit" value="Enviar datos">
-            </div>
-        </form>
-    </aside> -->
-
-    <footer id="footer">
-        <p>Copyright &copy; Todos los derechos reservados.</p>
+    <footer>
+        <div class="container-footer">
+            <span>Copyright &copy; Todos los derechos reservados.</span>
+        </div>
     </footer>
 
     <script
@@ -202,5 +191,6 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous">
     </script>
+    <script src="./assets/javascript/javascript.js"></script>
 </body>
 </html>

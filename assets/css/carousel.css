@@ -1,0 +1,47 @@
+
+.carousel-size {
+    height: 30em;
+}
+
+.caption-style {
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    bottom: 40%;
+    padding: 30px 30px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.5); /* Añadir para conseguir el fondo con opacidad */
+}
+
+@media only screen and (max-width: 600px) {
+
+    .carousel-size {
+        height: 15em;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .carousel-size {
+        height: 20em;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    
+    .carousel-size {
+        height: 25em;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .carousel-size {
+        height: 28em;
+    }
+    
+}

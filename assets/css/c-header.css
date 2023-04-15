@@ -1,0 +1,149 @@
+header {
+    display: flex;
+    margin: 0;
+    /* min-height: 70px; */
+    min-height: 1%;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    padding: 0.5%;
+    background-color: rgb(0, 61, 92);
+}
+
+header a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    /* height: 60px; */
+    height: 3.5em;
+    /* margin-right: 10px; */
+    margin: 0 1em;
+}
+/* 
+nav {
+    color: #ffff;
+} */
+
+nav ol {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    list-style: none;
+    padding: 1em;
+    margin: 0 0.3em;
+}
+
+nav a {
+    color: #ffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #FFFFFF44;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5em;
+    margin: 4%;
+}
+
+@media only screen and (max-width: 600px) {
+    header{
+        flex-direction: column;
+        padding-top: 1em;
+    }
+
+    nav {
+        padding: 0.2em 0em;
+    }
+
+    .logo img {
+        height: 2em;
+        margin-right: 1em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logo img {
+        height: 3em;
+        /* margin-right: 1em; */
+    }
+    /* .form-contacto{
+        margin: 1.5%;
+    } */
+    /* .footer {
+        padding: 1%;
+        font-weight: 750;
+    } */
+}
+
+@media only screen and (max-width: 992px) {
+    /* .form-contacto {
+        padding: 2%;
+        margin: 1%;
+    } */
+    /* .footer {
+        padding-bottom: 0%;
+        /* font-weight: 750;
+    } */
+}
+
+@media only screen and (max-width: 1200px) {
+    /* .form-contacto {
+        padding: 2%;
+        margin: 1.6%;
+    } */
+}
+
+
+
+/* --------- */
+
+/* 
+.component {
+    display: flex;
+    color: #ffff;
+    background-color: var(--background);
+}
+
+.component ol {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    /* align-content: center; 
+    justify-content: center;
+    /* color: inherit; 
+}
+
+.component li {
+    list-style: none;
+    padding: 4%;
+    /* margin: 0% 1%; 
+}
+
+.component li:hover {
+    background-color: #FFFFFF44;
+}
+
+.component a {
+    color: inherit;
+    text-decoration: none;
+} */
